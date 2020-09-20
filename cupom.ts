@@ -1,4 +1,4 @@
-function imprime_dados_loja() {
+function imprime_dados_loja(): void {
   console.log(nome_loja)
   console.log(`${logradouro}, ${numero} ${complemento}`);
   console.log(`${bairro} - ${municipio} - ${estado}`);
